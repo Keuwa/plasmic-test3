@@ -33,6 +33,7 @@ import {
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
 import SideBar from "../../SideBar"; // plasmic-import: wLchbCnIJO/component
+import Avatar from "../../Avatar"; // plasmic-import: nlJSX5qOBl/component
 import Separator from "../../Separator"; // plasmic-import: bPy7gX0I0X/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: za4D064K-t/component
 import ProjectCard from "../../ProjectCard"; // plasmic-import: pVRNuEeocz/component
@@ -52,9 +53,12 @@ export type PlasmicHomepage__VariantsArgs = {};
 type VariantPropType = keyof PlasmicHomepage__VariantsArgs;
 export const PlasmicHomepage__VariantProps = new Array<VariantPropType>();
 
-export type PlasmicHomepage__ArgsType = {};
+export type PlasmicHomepage__ArgsType = {
+  projectsGrid?: React.ReactNode;
+};
+
 type ArgPropType = keyof PlasmicHomepage__ArgsType;
-export const PlasmicHomepage__ArgProps = new Array<ArgPropType>();
+export const PlasmicHomepage__ArgProps = new Array<ArgPropType>("projectsGrid");
 
 export type PlasmicHomepage__OverridesType = {
   root?: p.Flex<"div">;
@@ -213,237 +217,290 @@ function PlasmicHomepage__RenderFunc(props: {
                 hasGap={true}
                 className={classNames(defaultcss.all, sty.projectsGrid)}
               >
-                <ProjectCard
-                  className={classNames(
-                    "__wab_instance",
-                    sty.projectCard__dAc8V
-                  )}
-                  projectBgImage={
-                    <img
-                      alt={""}
-                      className={classNames(defaultcss.img, sty.img__hn9Nj)}
-                      role={"img"}
-                      src={
-                        "/plasmic/blank_project/images/nickForemanNickForemanIsrConcept17Jpg.jpeg"
-                      }
-                    />
-                  }
-                />
+                {p.renderPlasmicSlot({
+                  defaultContents: (
+                    <React.Fragment>
+                      <ProjectCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.projectCard__fjzN
+                        )}
+                        projectBgImage={
+                          <img
+                            alt={""}
+                            className={classNames(
+                              defaultcss.img,
+                              sty.img__zAoG
+                            )}
+                            role={"img"}
+                            src={
+                              "/plasmic/blank_project/images/nickForemanNickForemanIsrConcept17Jpg.jpeg"
+                            }
+                          />
+                        }
+                      />
 
-                <ProjectCard
-                  className={classNames(
-                    "__wab_instance",
-                    sty.projectCard__g3Rcb
-                  )}
-                  projectBgImage={
-                    <img
-                      alt={""}
-                      className={classNames(defaultcss.img, sty.img__uZPqz)}
-                      role={"img"}
-                      src={
-                        "/plasmic/blank_project/images/_86C5B3E0Fb8049C6922F03E36759A179Jpg.jpeg"
-                      }
-                    />
-                  }
-                />
+                      <ProjectCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.projectCard___3N7OM
+                        )}
+                        projectBgImage={
+                          <img
+                            alt={""}
+                            className={classNames(
+                              defaultcss.img,
+                              sty.img___7ABA
+                            )}
+                            role={"img"}
+                            src={
+                              "/plasmic/blank_project/images/_86C5B3E0Fb8049C6922F03E36759A179Jpg.jpeg"
+                            }
+                          />
+                        }
+                      />
 
-                <ProjectCard
-                  className={classNames(
-                    "__wab_instance",
-                    sty.projectCard__fTk39
-                  )}
-                  projectBgImage={
-                    <img
-                      alt={""}
-                      className={classNames(defaultcss.img, sty.img__yM0Pl)}
-                      role={"img"}
-                      src={
-                        "/plasmic/blank_project/images/_7Ef70D6E2A72Cd1375D509C0E305267Bjpg.jpeg"
-                      }
-                    />
-                  }
-                />
+                      <ProjectCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.projectCard__l22Eh
+                        )}
+                        projectBgImage={
+                          <img
+                            alt={""}
+                            className={classNames(
+                              defaultcss.img,
+                              sty.img___88UOs
+                            )}
+                            role={"img"}
+                            src={
+                              "/plasmic/blank_project/images/_7Ef70D6E2A72Cd1375D509C0E305267Bjpg.jpeg"
+                            }
+                          />
+                        }
+                      />
 
-                <ProjectCard
-                  className={classNames(
-                    "__wab_instance",
-                    sty.projectCard___0QyC2
-                  )}
-                  projectBgImage={
-                    <img
-                      alt={""}
-                      className={classNames(defaultcss.img, sty.img__gxXrd)}
-                      role={"img"}
-                      src={
-                        "/plasmic/blank_project/images/_2D2575Ef486559Ed5Ad60655Ef152C84Jpg.jpeg"
-                      }
-                    />
-                  }
-                />
+                      <ProjectCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.projectCard__yr8V0
+                        )}
+                        projectBgImage={
+                          <img
+                            alt={""}
+                            className={classNames(
+                              defaultcss.img,
+                              sty.img__zQjrP
+                            )}
+                            role={"img"}
+                            src={
+                              "/plasmic/blank_project/images/_2D2575Ef486559Ed5Ad60655Ef152C84Jpg.jpeg"
+                            }
+                          />
+                        }
+                      />
 
-                <ProjectCard
-                  className={classNames(
-                    "__wab_instance",
-                    sty.projectCard__hbsBx
-                  )}
-                  projectBgImage={
-                    <img
-                      alt={""}
-                      className={classNames(defaultcss.img, sty.img__lYl4Y)}
-                      role={"img"}
-                      src={
-                        "/plasmic/blank_project/images/girlFaceDrawing3Jpg.jpeg"
-                      }
-                    />
-                  }
-                />
+                      <ProjectCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.projectCard__mlucG
+                        )}
+                        projectBgImage={
+                          <img
+                            alt={""}
+                            className={classNames(
+                              defaultcss.img,
+                              sty.img__dasHm
+                            )}
+                            role={"img"}
+                            src={
+                              "/plasmic/blank_project/images/girlFaceDrawing3Jpg.jpeg"
+                            }
+                          />
+                        }
+                      />
 
-                <ProjectCard
-                  className={classNames(
-                    "__wab_instance",
-                    sty.projectCard__zrWy9
-                  )}
-                  projectBgImage={
-                    <img
-                      alt={""}
-                      className={classNames(defaultcss.img, sty.img__nl7Xm)}
-                      role={"img"}
-                      src={"/plasmic/blank_project/images/_0Jpg.jpeg"}
-                    />
-                  }
-                />
+                      <ProjectCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.projectCard__kpRlB
+                        )}
+                        projectBgImage={
+                          <img
+                            alt={""}
+                            className={classNames(
+                              defaultcss.img,
+                              sty.img__au2Gj
+                            )}
+                            role={"img"}
+                            src={"/plasmic/blank_project/images/_0Jpg.jpeg"}
+                          />
+                        }
+                      />
 
-                <ProjectCard
-                  className={classNames(
-                    "__wab_instance",
-                    sty.projectCard__pbFrE
-                  )}
-                  projectBgImage={
-                    <img
-                      alt={""}
-                      className={classNames(defaultcss.img, sty.img___8Ft1X)}
-                      role={"img"}
-                      src={
-                        "/plasmic/blank_project/images/wardenlightStudioDellCityWarjpg.jpeg"
-                      }
-                    />
-                  }
-                />
+                      <ProjectCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.projectCard___96VRb
+                        )}
+                        projectBgImage={
+                          <img
+                            alt={""}
+                            className={classNames(
+                              defaultcss.img,
+                              sty.img__sgre8
+                            )}
+                            role={"img"}
+                            src={
+                              "/plasmic/blank_project/images/wardenlightStudioDellCityWarjpg.jpeg"
+                            }
+                          />
+                        }
+                      />
 
-                <ProjectCard
-                  className={classNames(
-                    "__wab_instance",
-                    sty.projectCard__rc2P5
-                  )}
-                  projectBgImage={
-                    <img
-                      alt={""}
-                      className={classNames(defaultcss.img, sty.img___0RZOd)}
-                      role={"img"}
-                      src={
-                        "/plasmic/blank_project/images/danielLiang201811026Jpg.jpeg"
-                      }
-                    />
-                  }
-                />
+                      <ProjectCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.projectCard__eIpLc
+                        )}
+                        projectBgImage={
+                          <img
+                            alt={""}
+                            className={classNames(
+                              defaultcss.img,
+                              sty.img__iplhS
+                            )}
+                            role={"img"}
+                            src={
+                              "/plasmic/blank_project/images/danielLiang201811026Jpg.jpeg"
+                            }
+                          />
+                        }
+                      />
 
-                <ProjectCard
-                  className={classNames(
-                    "__wab_instance",
-                    sty.projectCard__ea8Q
-                  )}
-                  projectBgImage={
-                    <img
-                      alt={""}
-                      className={classNames(defaultcss.img, sty.img__ghXie)}
-                      role={"img"}
-                      src={
-                        "/plasmic/blank_project/images/wardenlightStudioWardenlightBlurShadowOfWarMinasithil01Jpg.jpeg"
-                      }
-                    />
-                  }
-                />
+                      <ProjectCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.projectCard__mfi8G
+                        )}
+                        projectBgImage={
+                          <img
+                            alt={""}
+                            className={classNames(
+                              defaultcss.img,
+                              sty.img__mwjOk
+                            )}
+                            role={"img"}
+                            src={
+                              "/plasmic/blank_project/images/wardenlightStudioWardenlightBlurShadowOfWarMinasithil01Jpg.jpeg"
+                            }
+                          />
+                        }
+                      />
 
-                <ProjectCard
-                  className={classNames(
-                    "__wab_instance",
-                    sty.projectCard__ysNjz
-                  )}
-                  projectBgImage={
-                    <img
-                      alt={""}
-                      className={classNames(defaultcss.img, sty.img__tWcJw)}
-                      role={"img"}
-                      src={
-                        "/plasmic/blank_project/images/wardenlightStudioWlsBsHaloRememberBjpg.jpeg"
-                      }
-                    />
-                  }
-                />
+                      <ProjectCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.projectCard___2DlQn
+                        )}
+                        projectBgImage={
+                          <img
+                            alt={""}
+                            className={classNames(
+                              defaultcss.img,
+                              sty.img__iipek
+                            )}
+                            role={"img"}
+                            src={
+                              "/plasmic/blank_project/images/wardenlightStudioWlsBsHaloRememberBjpg.jpeg"
+                            }
+                          />
+                        }
+                      />
 
-                <ProjectCard
-                  className={classNames(
-                    "__wab_instance",
-                    sty.projectCard__opxz
-                  )}
-                  projectBgImage={
-                    <img
-                      alt={""}
-                      className={classNames(defaultcss.img, sty.img__yrzru)}
-                      role={"img"}
-                      src={
-                        "/plasmic/blank_project/images/wardenlightStudioWlsSonyCabinFeverChurch01Jpg.jpeg"
-                      }
-                    />
-                  }
-                />
+                      <ProjectCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.projectCard__zdGtw
+                        )}
+                        projectBgImage={
+                          <img
+                            alt={""}
+                            className={classNames(
+                              defaultcss.img,
+                              sty.img__kqKey
+                            )}
+                            role={"img"}
+                            src={
+                              "/plasmic/blank_project/images/wardenlightStudioWlsSonyCabinFeverChurch01Jpg.jpeg"
+                            }
+                          />
+                        }
+                      />
 
-                <ProjectCard
-                  className={classNames(
-                    "__wab_instance",
-                    sty.projectCard__r6IbU
-                  )}
-                  projectBgImage={
-                    <img
-                      alt={""}
-                      className={classNames(defaultcss.img, sty.img__y31Ts)}
-                      role={"img"}
-                      src={
-                        "/plasmic/blank_project/images/wojtekFus1Fulljpg.jpeg"
-                      }
-                    />
-                  }
-                />
+                      <ProjectCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.projectCard__laaa2
+                        )}
+                        projectBgImage={
+                          <img
+                            alt={""}
+                            className={classNames(
+                              defaultcss.img,
+                              sty.img__eibfz
+                            )}
+                            role={"img"}
+                            src={
+                              "/plasmic/blank_project/images/wojtekFus1Fulljpg.jpeg"
+                            }
+                          />
+                        }
+                      />
 
-                <ProjectCard
-                  className={classNames(
-                    "__wab_instance",
-                    sty.projectCard__l4JZc
-                  )}
-                  projectBgImage={
-                    <img
-                      alt={""}
-                      className={classNames(defaultcss.img, sty.img__osGnG)}
-                      role={"img"}
-                      src={"/plasmic/blank_project/images/x25IpE0Jpg.jpeg"}
-                    />
-                  }
-                />
+                      <ProjectCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.projectCard__ztxip
+                        )}
+                        projectBgImage={
+                          <img
+                            alt={""}
+                            className={classNames(
+                              defaultcss.img,
+                              sty.img___2NNwV
+                            )}
+                            role={"img"}
+                            src={
+                              "/plasmic/blank_project/images/x25IpE0Jpg.jpeg"
+                            }
+                          />
+                        }
+                      />
 
-                <ProjectCard
-                  className={classNames(
-                    "__wab_instance",
-                    sty.projectCard__simh0
-                  )}
-                  projectBgImage={
-                    <img
-                      alt={""}
-                      className={classNames(defaultcss.img, sty.img__aBlc6)}
-                      role={"img"}
-                      src={"/plasmic/blank_project/images/yanLiangKdajpg.jpeg"}
-                    />
-                  }
-                />
+                      <ProjectCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.projectCard__wajuj
+                        )}
+                        projectBgImage={
+                          <img
+                            alt={""}
+                            className={classNames(
+                              defaultcss.img,
+                              sty.img__aMkTl
+                            )}
+                            role={"img"}
+                            src={
+                              "/plasmic/blank_project/images/yanLiangKdajpg.jpeg"
+                            }
+                          />
+                        }
+                      />
+                    </React.Fragment>
+                  ),
+                  value: args.projectsGrid
+                })}
               </p.Stack>
             </div>
 

@@ -50,20 +50,22 @@ export type PlasmicSideBar__VariantsArgs = {};
 type VariantPropType = keyof PlasmicSideBar__VariantsArgs;
 export const PlasmicSideBar__VariantProps = new Array<VariantPropType>();
 
-export type PlasmicSideBar__ArgsType = {};
+export type PlasmicSideBar__ArgsType = {
+  children?: React.ReactNode;
+};
+
 type ArgPropType = keyof PlasmicSideBar__ArgsType;
-export const PlasmicSideBar__ArgProps = new Array<ArgPropType>();
+export const PlasmicSideBar__ArgProps = new Array<ArgPropType>("children");
 
 export type PlasmicSideBar__OverridesType = {
   sideBarWrapper?: p.Flex<"nav">;
   mainNav?: p.Flex<"div">;
-  avatar?: p.Flex<typeof Avatar>;
-  img?: p.Flex<"img">;
   separator?: p.Flex<typeof Separator>;
   utilityNav?: p.Flex<"div">;
 };
 
 export interface DefaultSideBarProps {
+  children?: React.ReactNode;
   className?: string;
 }
 
@@ -93,23 +95,25 @@ function PlasmicSideBar__RenderFunc(props: {
         data-plasmic-override={overrides.mainNav}
         className={classNames(defaultcss.all, sty.mainNav)}
       >
-        <Avatar
-          data-plasmic-name={"avatar"}
-          data-plasmic-override={overrides.avatar}
-          avatarImage={
-            <img
-              data-plasmic-name={"img"}
-              data-plasmic-override={overrides.img}
-              alt={""}
-              className={classNames(defaultcss.img, sty.img)}
-              role={"img"}
-              src={
-                "/plasmic/blank_project/images/_8E3B8Da3A0344077Bbe6835A17D49A84Jpg.jpeg"
+        {p.renderPlasmicSlot({
+          defaultContents: (
+            <Avatar
+              avatarImage={
+                <img
+                  alt={""}
+                  className={classNames(defaultcss.img, sty.img__o86Xs)}
+                  role={"img"}
+                  src={
+                    "/plasmic/blank_project/images/_8E3B8Da3A0344077Bbe6835A17D49A84Jpg.jpeg"
+                  }
+                />
               }
+              className={classNames("__wab_instance", sty.avatar___5Fc86)}
             />
-          }
-          className={classNames("__wab_instance", sty.avatar)}
-        />
+          ),
+
+          value: args.children
+        })}
       </div>
 
       <Separator
@@ -147,17 +151,8 @@ function PlasmicSideBar__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  sideBarWrapper: [
-    "sideBarWrapper",
-    "mainNav",
-    "avatar",
-    "img",
-    "separator",
-    "utilityNav"
-  ],
-  mainNav: ["mainNav", "avatar", "img"],
-  avatar: ["avatar", "img"],
-  img: ["img"],
+  sideBarWrapper: ["sideBarWrapper", "mainNav", "separator", "utilityNav"],
+  mainNav: ["mainNav"],
   separator: ["separator"],
   utilityNav: ["utilityNav"]
 } as const;
@@ -167,8 +162,6 @@ type DescendantsType<T extends NodeNameType> =
 type NodeDefaultElementType = {
   sideBarWrapper: "nav";
   mainNav: "div";
-  avatar: typeof Avatar;
-  img: "img";
   separator: typeof Separator;
   utilityNav: "div";
 };
@@ -235,8 +228,6 @@ export const PlasmicSideBar = Object.assign(
   {
     // Helper components rendering sub-elements
     mainNav: makeNodeComponent("mainNav"),
-    avatar: makeNodeComponent("avatar"),
-    img: makeNodeComponent("img"),
     separator: makeNodeComponent("separator"),
     utilityNav: makeNodeComponent("utilityNav"),
 
