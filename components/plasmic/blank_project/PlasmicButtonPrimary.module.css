@@ -1,0 +1,91 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.button {
+  position: relative;
+  transition-property: all;
+  transition-duration: 0.2s;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  padding: 10px /* plasmic-token: kb3kg91y0 */ 20px
+    /* plasmic-token: 1wPBXYK0D */;
+  background: #d3d8ea;
+  border-width: 1px;
+  border-style: none;
+}
+.button__wIcon {
+  display: flex;
+}
+.button__wIcon > :global(.__wab_flex-container) {
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+  margin-top: calc(0px - 0px);
+  height: calc(100% + 0px);
+}
+.button__wIcon > :global(.__wab_flex-container) > *,
+.button__wIcon > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 10px;
+  margin-top: 0px;
+}
+.button__iconOnly {
+  min-width: 30px /* plasmic-token: Hsi6YpdKK */;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  padding: 5px /* plasmic-token: ytQ7dUc3K */;
+}
+.button__size_large {
+  min-height: 60px /* plasmic-token: P-MvmKCS4 */;
+  padding: 20px /* plasmic-token: 1wPBXYK0D */ 30px
+    /* plasmic-token: Hsi6YpdKK */;
+}
+.button__size_tiny {
+  min-height: 30px /* plasmic-token: Hsi6YpdKK */;
+  padding: 5px /* plasmic-token: ytQ7dUc3K */ 10px
+    /* plasmic-token: kb3kg91y0 */;
+}
+.button__iconOnly_size_large {
+  padding-right: 20px /* plasmic-token: 1wPBXYK0D */;
+  padding-left: 20px /* plasmic-token: 1wPBXYK0D */;
+}
+.button__iconOnly_size_medium {
+  min-width: 40px /* plasmic-token: bVTd2O2ca */;
+  min-height: 40px /* plasmic-token: bVTd2O2ca */;
+  padding: 10px /* plasmic-token: kb3kg91y0 */;
+}
+.button__iconOnly_size_tiny {
+  min-width: 30px /* plasmic-token: Hsi6YpdKK */;
+  padding: 5px /* plasmic-token: ytQ7dUc3K */;
+}
+.root:hover .button {
+  background: #f2f2f2;
+}
+.root:active .button {
+  border-radius: 100px;
+  background: #f2f2f2;
+}
+.slotLabel {
+  font-size: 0.88em;
+  font-weight: 700;
+  color: #242938 /* plasmic-token: SX_3cw6Nc */;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.3 /* plasmic-token: n6YzbZyK2 */;
+}
+.svg__kyj9B {
+  color: #272f4c /* plasmic-token: kautIGZNM */;
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  flex-shrink: 0;
+  height: 1em;
+}

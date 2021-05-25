@@ -1,0 +1,499 @@
+{
+  "props": [
+    {
+      "name": "10%",
+      "type": "opacity",
+      "value": "0.1",
+      "category": "opacity",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "BXFCREB0P"
+      }
+    },
+    {
+      "name": "100%",
+      "type": "opacity",
+      "value": "1",
+      "category": "opacity",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "tx2i2Sefr"
+      }
+    },
+    {
+      "name": "100px",
+      "type": "spacing",
+      "value": "100px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "ZJE6P2N2i"
+      }
+    },
+    {
+      "name": "10px",
+      "type": "spacing",
+      "value": "10px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "kb3kg91y0"
+      }
+    },
+    {
+      "name": "120px",
+      "type": "spacing",
+      "value": "120px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "pxidTp-qZ"
+      }
+    },
+    {
+      "name": "20%",
+      "type": "opacity",
+      "value": "0.2",
+      "category": "opacity",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "Y18Fe2wI6"
+      }
+    },
+    {
+      "name": "20px",
+      "type": "spacing",
+      "value": "20px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "1wPBXYK0D"
+      }
+    },
+    {
+      "name": "2XL",
+      "type": "fontsize",
+      "value": "1.25em",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "DyVK3AC1R"
+      }
+    },
+    {
+      "name": "30%",
+      "type": "opacity",
+      "value": "0.3",
+      "category": "opacity",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "rRvh9xpWr"
+      }
+    },
+    {
+      "name": "30px",
+      "type": "spacing",
+      "value": "30px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "Hsi6YpdKK"
+      }
+    },
+    {
+      "name": "3XL",
+      "type": "fontsize",
+      "value": "1.56em",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "UpAH4ZcLZ"
+      }
+    },
+    {
+      "name": "40px",
+      "type": "spacing",
+      "value": "40px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "bVTd2O2ca"
+      }
+    },
+    {
+      "name": "4XL",
+      "type": "fontsize",
+      "value": "1.95em",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "6Km99KlgV"
+      }
+    },
+    {
+      "name": "5XL",
+      "type": "fontsize",
+      "value": "2.44em",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "qoIDvjhp4"
+      }
+    },
+    {
+      "name": "5px",
+      "type": "spacing",
+      "value": "5px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "ytQ7dUc3K"
+      }
+    },
+    {
+      "name": "60%",
+      "type": "opacity",
+      "value": "0.6",
+      "category": "opacity",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "TJzaJ-IEd"
+      }
+    },
+    {
+      "name": "60px",
+      "type": "spacing",
+      "value": "60px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "P-MvmKCS4"
+      }
+    },
+    {
+      "name": "6XL",
+      "type": "fontsize",
+      "value": "3.05em",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "j8-3fcc9A"
+      }
+    },
+    {
+      "name": "70%",
+      "type": "opacity",
+      "value": "0.7",
+      "category": "opacity",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "kEkBLDVtZ"
+      }
+    },
+    {
+      "name": "7XL",
+      "type": "fontsize",
+      "value": "3.81em",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "HujRP-WeP"
+      }
+    },
+    {
+      "name": "80px",
+      "type": "spacing",
+      "value": "80px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "zBrmWoUJw"
+      }
+    },
+    {
+      "name": "90%",
+      "type": "opacity",
+      "value": "0.9",
+      "category": "opacity",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "h1vY5qa83"
+      }
+    },
+    {
+      "name": "Anti Flash White",
+      "type": "color",
+      "value": "#F2F2F2",
+      "category": "color",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "fi8Wp-vVc"
+      }
+    },
+    {
+      "name": "Blueberry",
+      "type": "color",
+      "value": "#559CF2",
+      "category": "color",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "7RzU1Q_Sa"
+      }
+    },
+    {
+      "name": "Cadet Blue",
+      "type": "color",
+      "value": "#B3B9CC",
+      "category": "color",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "pbs2hXjgF"
+      }
+    },
+    {
+      "name": "Dingy Dungeon",
+      "type": "color",
+      "value": "#E64570",
+      "category": "color",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "as0p_8l1v"
+      }
+    },
+    {
+      "name": "Eerie Black",
+      "type": "color",
+      "value": "#151519",
+      "category": "color",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "1feyMrlDJ"
+      }
+    },
+    {
+      "name": "Full Width",
+      "type": "spacing",
+      "value": "100%",
+      "category": "spacing",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "diFEeoT2F"
+      }
+    },
+    {
+      "name": "Gunmetal",
+      "type": "color",
+      "value": "#242938",
+      "category": "color",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "SX_3cw6Nc"
+      }
+    },
+    {
+      "name": "Half Width",
+      "type": "spacing",
+      "value": "50%",
+      "category": "spacing",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "-5a1hT9h6"
+      }
+    },
+    {
+      "name": "Independence",
+      "type": "color",
+      "value": "#4D5466",
+      "category": "color",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "sWx1s7OZv"
+      }
+    },
+    {
+      "name": "Iris",
+      "type": "color",
+      "value": "#6672F9",
+      "category": "color",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "Cv_AYyGwv"
+      }
+    },
+    {
+      "name": "Japanese Indigo",
+      "type": "color",
+      "value": "#272F4C",
+      "category": "color",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "kautIGZNM"
+      }
+    },
+    {
+      "name": "Jordy Blue",
+      "type": "color",
+      "value": "#91BCF2",
+      "category": "color",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "rLqtharSa"
+      }
+    },
+    {
+      "name": "L",
+      "type": "fontsize",
+      "value": "1.5em",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "vX9TnyDHf"
+      }
+    },
+    {
+      "name": "Large Text",
+      "type": "lineheight",
+      "value": "1.3",
+      "category": "lineheight",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "n6YzbZyK2"
+      }
+    },
+    {
+      "name": "Light Gunmetal",
+      "type": "color",
+      "value": "#333849",
+      "category": "color",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "7wdO627nA"
+      }
+    },
+    {
+      "name": "Light Perriwinkle",
+      "type": "color",
+      "value": "#D3D8EA",
+      "category": "color",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "9ZQmlSvpj"
+      }
+    },
+    {
+      "name": "Light Purple",
+      "type": "color",
+      "value": "#A9AFF2",
+      "category": "color",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "wO5Sf75KI"
+      }
+    },
+    {
+      "name": "M",
+      "type": "fontsize",
+      "value": "1em",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "UDlWlNzDx"
+      }
+    },
+    {
+      "name": "Mandarin",
+      "type": "color",
+      "value": "#F49349",
+      "category": "color",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "e1v01F_Ys"
+      }
+    },
+    {
+      "name": "Middle Green",
+      "type": "color",
+      "value": "#66CC6D",
+      "category": "color",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "IfE9R-ApI"
+      }
+    },
+    {
+      "name": "Normal Text",
+      "type": "lineheight",
+      "value": "1.5",
+      "category": "lineheight",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "YO9Etkh3Y"
+      }
+    },
+    {
+      "name": "Raisin Black",
+      "type": "color",
+      "value": "#212530",
+      "category": "color",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "TU9xpg5_Y"
+      }
+    },
+    {
+      "name": "S",
+      "type": "fontsize",
+      "value": "0.8em",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "ZamPN-u9D"
+      }
+    },
+    {
+      "name": "Shady Black",
+      "type": "color",
+      "value": "#1D1E23",
+      "category": "color",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "oa9wG1RQK"
+      }
+    },
+    {
+      "name": "Slate Grey",
+      "type": "color",
+      "value": "#777D91",
+      "category": "color",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "cHHchm67A"
+      }
+    },
+    {
+      "name": "XL",
+      "type": "fontsize",
+      "value": "2em",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "59RV88Vhc"
+      }
+    },
+    {
+      "name": "Yankee Blue",
+      "type": "color",
+      "value": "#14213D",
+      "category": "color",
+      "meta": {
+        "projectId": "3UGM9QESBjorrc4Kg2zYnR",
+        "id": "YCiiAFtkh"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}

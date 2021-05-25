@@ -1,0 +1,31 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+.root__navBarSeparator {
+  width: 1px;
+  height: 100%;
+  min-height: 0;
+  padding: 5px /* plasmic-token: ytQ7dUc3K */ 10px
+    /* plasmic-token: kb3kg91y0 */;
+}
+.box {
+  display: inline-block;
+  position: relative;
+  height: 1px;
+  width: auto;
+  flex-shrink: 0;
+  background: #777d91;
+}
+.box__sideBarSeparator {
+  margin: 5px /* plasmic-token: ytQ7dUc3K */;
+  background: #4d5466;
+}
+.box__navBarSeparator {
+  height: 100%;
+  width: 1px;
+  min-height: 0;
+}
